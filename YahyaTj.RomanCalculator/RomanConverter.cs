@@ -1,4 +1,4 @@
-namespace RomanCalculator;
+namespace YahyaTj.RomanCalculator;
 
 public class RomanConverter
 {

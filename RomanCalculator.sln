@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanCalculator", "RomanCalculator\RomanCalculator.csproj", "{72337701-7254-41A0-B90C-47073DFB48A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahyaTj.RomanCalculator", "YahyaTj.RomanCalculator\YahyaTj.RomanCalculator.csproj", "{72337701-7254-41A0-B90C-47073DFB48A5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahyaTj.RomanCalculator.IntegrationTests", "YahyaTj.RomanCalculator.IntegrationTests\YahyaTj.RomanCalculator.IntegrationTests.csproj", "{1EF36917-271E-46D2-8E8A-D2D1EF74261A}"
 EndProject

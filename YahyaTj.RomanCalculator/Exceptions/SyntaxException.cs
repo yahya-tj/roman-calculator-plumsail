@@ -1,4 +1,4 @@
-namespace RomanCalculator.Exceptions;
+namespace YahyaTj.RomanCalculator.Exceptions;
 
 public class SyntaxException : MathExpressionException
 {

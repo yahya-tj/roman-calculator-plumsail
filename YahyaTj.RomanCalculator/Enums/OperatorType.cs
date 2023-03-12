@@ -1,4 +1,4 @@
-namespace RomanCalculator.Enums;
+namespace YahyaTj.RomanCalculator.Enums;
 
 public enum OperatorType
 {

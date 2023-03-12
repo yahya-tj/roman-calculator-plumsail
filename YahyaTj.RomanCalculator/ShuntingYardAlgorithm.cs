@@ -1,8 +1,8 @@
-using RomanCalculator.Contracts;
-using RomanCalculator.Enums;
-using RomanCalculator.Exceptions;
+using YahyaTj.RomanCalculator.Contracts;
+using YahyaTj.RomanCalculator.Enums;
+using YahyaTj.RomanCalculator.Exceptions;
 
-namespace RomanCalculator;
+namespace YahyaTj.RomanCalculator;
 
 public class ShuntingYardAlgorithm
 {

@@ -4,11 +4,11 @@ namespace YahyaTj.RomanCalculator.IntegrationTests;
 
 public class IntegrationTests
 {
-    private readonly global::RomanCalculator.RomanCalculator _romanCalculator;
+    private readonly RomanCalculator _romanCalculator;
 
     public IntegrationTests()
     {
-        _romanCalculator = new global::RomanCalculator.RomanCalculator();
+        _romanCalculator = new RomanCalculator();
     }
 
     [Fact]

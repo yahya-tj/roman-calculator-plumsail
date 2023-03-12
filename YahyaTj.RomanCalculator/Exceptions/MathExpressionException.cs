@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace RomanCalculator.Exceptions;
+namespace YahyaTj.RomanCalculator.Exceptions;
 
 [Serializable]
 public class MathExpressionException : Exception
