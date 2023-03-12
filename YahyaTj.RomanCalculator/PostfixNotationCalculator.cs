@@ -78,8 +78,7 @@ public class PostfixNotationCalculator
         var leftNumber = _romanConverter.RomanToInt(operands.Item1.Value);
         var rightNumber = _romanConverter.RomanToInt(operands.Item2.Value);
         var operandTokenValue = _romanConverter.IntToRoman(leftNumber + rightNumber);
-        var result = new OperandToken(operandTokenValue);
-        _operandTokensStack.Push(result);
+        _operandTokensStack.Push( new OperandToken(operandTokenValue));
     }
 
     private void ApplySubtractionOperator()
@@ -88,8 +87,7 @@ public class PostfixNotationCalculator
         var leftNumber = _romanConverter.RomanToInt(operands.Item1.Value);
         var rightNumber = _romanConverter.RomanToInt(operands.Item2.Value);
         var operandTokenValue = _romanConverter.IntToRoman(leftNumber - rightNumber);
-        var result = new OperandToken(operandTokenValue);
-        _operandTokensStack.Push(result);
+        _operandTokensStack.Push( new OperandToken(operandTokenValue));
     }
 
     private void ApplyMultiplicationOperator()
@@ -98,8 +96,7 @@ public class PostfixNotationCalculator
         var leftNumber = _romanConverter.RomanToInt(operands.Item1.Value);
         var rightNumber = _romanConverter.RomanToInt(operands.Item2.Value);
         var operandTokenValue = _romanConverter.IntToRoman(leftNumber * rightNumber);
-        var result = new OperandToken(operandTokenValue);
-        _operandTokensStack.Push(result);
+        _operandTokensStack.Push( new OperandToken(operandTokenValue));
     }
 
     private void ApplyDivisionOperator()
@@ -108,8 +105,7 @@ public class PostfixNotationCalculator
         var leftNumber = _romanConverter.RomanToInt(operands.Item1.Value);
         var rightNumber = _romanConverter.RomanToInt(operands.Item2.Value);
         var operandTokenValue = _romanConverter.IntToRoman(leftNumber / rightNumber);
-        var result = new OperandToken(operandTokenValue);
-        _operandTokensStack.Push(result);
+        _operandTokensStack.Push( new OperandToken(operandTokenValue));
     }
 
     private Tuple<OperandToken, OperandToken> GetBinaryOperatorArguments()

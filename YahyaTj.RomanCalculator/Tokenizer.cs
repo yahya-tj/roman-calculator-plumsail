@@ -19,7 +19,10 @@ public class Tokenizer
     public IEnumerable<IToken> Parse(string expression)
     {
         Reset();
-        foreach (var next in expression) FeedCharacter(next);
+        foreach (var next in expression)
+        {
+            FeedCharacter(next);
+        }
         return GetResult();
     }
 
